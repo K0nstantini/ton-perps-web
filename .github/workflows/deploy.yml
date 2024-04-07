@@ -40,7 +40,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-        env: ${{ import.meta.env.VITE_MAIN_CONTRACT }}
+        env:
+          VITE_MAIN_CONTRACT: ${{ import.meta.env.VITE_MAIN_CONTRACT }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
