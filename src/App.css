@@ -1,0 +1,69 @@
+/* :root { */
+/*   --tg-theme-bg-color: #efeff3; */
+/*   --tg-theme-button-color: #63d0f9; */
+/*   --tg-theme-button-text-color: black; */
+/* } */
+/**/
+/* .App { */
+/*   height: 100vh; */
+/*   background-color: var(--tg-theme-bg-color); */
+/*   color: var(--tg-theme-text-color); */
+/* } */
+/**/
+/* .Container { */
+/*   padding: 2rem; */
+/*   max-width: 500px; */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   gap: 30px; */
+/*   align-items: center; */
+/*   margin: 0 auto; */
+/*   text-align: center; */
+/* } */
+/**/
+/* .Disabled { */
+/*   filter: brightness(50%); */
+/*   cursor: initial; */
+/* } */
+/**/
+/* .Hint { */
+/*   color: var(--tg-theme-hint-color); */
+/* } */
+/**/
+/* .Card { */
+/*   width: 100%; */
+/*   padding: 10px 20px; */
+/*   border-radius: 10px; */
+/*   background-color: white; */
+/* } */
+/**/
+/* @media (prefers-color-scheme: dark) { */
+/*   :root { */
+/*     --tg-theme-bg-color: #131415; */
+/*     --tg-theme-text-color: #fff; */
+/*   } */
+/**/
+/*   .Card { */
+/*     background-color: var(--tg-theme-bg-color); */
+/*     filter: brightness(165%); */
+/*   } */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ConnectBtn {
+  position: absolute;
+  padding-right: 100px;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: end;
+}
