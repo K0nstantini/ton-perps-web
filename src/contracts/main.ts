@@ -1,4 +1,4 @@
-import { Contract, ContractProvider, Address, Cell, beginCell, Sender, DictionaryKey, DictionaryValue, Dictionary, Address } from "@ton/core";
+import { Contract, ContractProvider, Cell, beginCell, Sender, Dictionary, Address } from "@ton/core";
 
 export default class Main implements Contract {
 

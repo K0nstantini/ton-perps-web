@@ -7,7 +7,6 @@ import { AddressLabel } from './components/AddressLabel';
 import { BalanceLabel } from './components/BalanceLabel';
 import { Owner } from './components/Owner';
 import { TrustedAddresses } from './components/TrustedAddresses';
-import { Divider } from '@mui/material';
 
 function App() {
 	const { connected } = useTonConnect();
