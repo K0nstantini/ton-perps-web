@@ -12,7 +12,8 @@ on:
 
 # global env
 env:
-  VITE_INTERNAL: ${{ import.meta.env.VITE_MAIN_CONTRACT }}
+  VITE_MAIN_CONTRACT: 'EQBo9RA56YvU4DTi16wR-7tV-9nNd221zNDrlSI9Pg5NZnvV'
+  # VITE_INTERNAL: ${{ import.meta.env.VITE_MAIN_CONTRACT }}
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
