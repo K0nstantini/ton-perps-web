@@ -12,7 +12,7 @@ on:
 
 # global env
 env:
-  VITE_INTERNAL: true
+  VITE_INTERNAL: ${{ import.meta.env.VITE_MAIN_CONTRACT }}
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
@@ -44,8 +44,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-        env:
-          VITE_MAIN_CONTRACT: ${{ import.meta.env.VITE_MAIN_CONTRACT }}
+        # env:
+        #   VITE_MAIN_CONTRACT: ${{ import.meta.env.VITE_MAIN_CONTRACT }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
